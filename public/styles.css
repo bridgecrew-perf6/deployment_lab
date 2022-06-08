@@ -12,6 +12,26 @@ body {
     background-color: brown;
 }
 
+header {
+    border: black 6px dotted;
+    width:100vw;
+    height:100px;
+    display:flex;
+    justify-content:center;
+}
+
 h1 {
+    color: goldenrod;
+    font-size: 75px;
+}
+
+p {
+    font-size: x-large;
     color:goldenrod;
+    width: 70vw;
+    margin: 20px;
+}
+
+img {
+    margin-top: 20px;
 }
