@@ -7,6 +7,7 @@ app.use(express.static("public"));
 // app.use("/js", express.static(path.join(__dirname, "public/main.js")));
 
 app.get("/", (req, res) => {
+  rollbar.log("Hello world!");
   res.sendFile(path.join(__dirname, "../public/index.html"));
 }); // '/' general file path
 
