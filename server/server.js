@@ -10,6 +10,8 @@ var rollbar = new Rollbar({
   captureUnhandledRejections: true,
 });
 
+rollbar.log("First Hello world!");
+
 app.use(express.static("public"));
 // app.use("/js", express.static(path.join(__dirname, "public/main.js")));
 
